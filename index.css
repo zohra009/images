@@ -1,14 +1,15 @@
 .container {
   display: flex;
   border: 6px solid black;
-  margin: 0;
-  flex-flow: row-reverse wrap;
+  margin: 20px;
+  flex-flow: row-reverse wrap-reverse;
+  /* height: 800px; */
 }
 .picbox {
-  display: inline-flex;
-  width:  10px;
-  height: 10px;
+ 
+  flex-direction: column-reverse wrap-reverse;
   padding: 1rem;
+  
 }
 
 img{
